@@ -3,32 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>My Resume</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <h1><strong>Резюмеха</strong></h1>
-    <p><img src="C:\Users\Home PC\Pictures\my.photo.png" alt="Загрузка изображения"></p>
-</header>
+  <div class="container">
+    <header>
+      <h1><strong>РЕЗЮМЕХА</strong></h1>
+      <p align="center"><img class="avatar" src="photo/mainphoto.png" alt="Загрузка фото"></p>
+    </header>
+
 <main>
-    <h2>Artem Dyachenko</h2>
-    <ul style="font-family: Helvetica; font-size: 11pt">
-        <li><b>Age:</b> <em>23</em></li>
-        <li><b>Adress:</b> <em>Olimpiis'ka St.8
-            <br>
-            Zaporizhzhia city</em></li>
-        <li><b>Contact:</b> <em>+38(050)25-68-530</em></li>
-    </ul>
+    <div class="info">
+    <h2 align="center">Artem Dyachenko</h2>
+        <p><b>Возраст:</b> 23</p>
+        <p><b>Адресс:</b> Олимпийская 8, кв. 61</p>
+        <p><b>Номер телефона:</b> +38(050)25-68-530</p>
+    </div>
+
+    <div class="social">
+        <p>Социальные сети:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/artemius5/" target="_blank">Instagram</a></li>
+            <li><a href="https://t.me/artemius5" target="_blank">Telegram</a></li>
+        </ul>
+    </div>
+
+    <div class="myself">
    <h2>
        <details>
-       <summary>About me</summary>
-           <p style="font-family: Helvetica; font-size: 11pt">
-               <em>I am currently practicing front-end development</em>
-           </p>
+           <summary>Обо мне:</summary>
+           <p>На данный момент начинающий <u>front-end</u> специалист.
+               Регулярно практикуюсь и посещаю онлайн/оффлайн курсы.</p>
        </details>
    </h2>
+    </div>
+
+    <div class="head">
+    <div class="card bg-aquamarine">
+        <h1>Образование:</h1>
+        <ul>
+            <li><p>2016 - 2020 - Классический Приватный Университет. Факультет менеджмента. Степень бакалавра.</p></li>
+            <li><p>2020 - 2022 - Классический Приватный Университет. Факультет менеджмента. Специальность: Бизнес-администрирование. Степень магистра.</p></li>
+        </ul>
+    </div>
+
+    <div class="card bg-lightgreen">
+        <h1>Курсы:</h1>
+        <ol>
+            <li><p>Основы таргетированной рекламы. Авторский онлайн курс от Иоанна Бильчика.</p></li>
+            <li><p>Таргет Тусовка. Авторский онлайн курс от Дениса Косенко. Длительность: 2 месяца. </p></li>
+            <li><p>Менторство от таргетолога-продавана Антона Вакуленко Длительность: 3 месяца.</p></li>
+        </ol>
+    </div>
+
+    <div class="card bg-tan">
+        <h1>Мои навыки:</h1>
+        <ol>
+            <li><p>Знание иностранных языков;</p></li>
+            <li><p>Опыт работы с HTML5, CSS3, JS;</p></li>
+            <li><p>Знание JavaScript/JQuery;</p></li>
+            <li><p>Опыт адаптивной верстки;</p></li>
+            <li><p>Опыт создания HTML-страницы сайта на основе дизайн-макетов;</p></li>
+            <li><p>Опыт вёрстки сайтов и шаблонов для CMS;</p></li>
+        </ol>
+    </div>
+    </div>
 </main>
-<button>Click me
-<a href="https://developer.mozilla.org/ru/"></a>
-</button>
+  </div>
 </body>
 </html>
